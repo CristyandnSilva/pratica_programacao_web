@@ -389,14 +389,6 @@ body {
 .texto a:hover {
   text-decoration: underline;
 }
-
-/* Responsivo */
-@media (min-width: 768px) {
-  .contato-opcoes {
-    flex-direction: column;
-  }
-}
-
 /* rodapé*/
 .footer {
   background-color: #eaf7ff; /* tom de azul claro */
@@ -519,4 +511,10 @@ body {
   display: flex;
   align-items: center;
   gap: 8px;
+}
+/* Responsivo */
+@media screen and (max-width: 500px){
+  .nav-menu{
+    display: none;
+  }
 }
